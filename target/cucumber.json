@@ -1,0 +1,137 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1845317700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-billing-login-funtionality-validation--#feature-means-we-start-a-test-souit-then-we-need-to-write-the-test-case-and-test-case-starts-with-scenario;user-should-be-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 688331200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1521170100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Techfios login page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3091657900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"username\" from Techfios database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_from_Techfios_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3081421900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"password\" from Techfios database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_from_Techfios_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5825983000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks signin button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13537100,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.LoginStepDefination.user_should_land_on_dashboard_page(LoginStepDefination.java:90)\r\n\tat ✽.Then User should land on dashboard page(features/TechFiosLoginUseDataFromDatabase.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@DbScenario1"
+          },
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Billing Login Funtionality Validation  #feature means we start a test souit then we need to write the test case and test case starts with Scenario",
+    "description": "",
+    "id": "techfios-billing-login-funtionality-validation--#feature-means-we-start-a-test-souit-then-we-need-to-write-the-test-case-and-test-case-starts-with-scenario",
+    "keyword": "Feature",
+    "uri": "features/TechFiosLoginUseDataFromDatabase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
